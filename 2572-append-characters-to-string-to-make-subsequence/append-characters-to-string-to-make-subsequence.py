@@ -8,6 +8,4 @@ class Solution:
                 i += 1
             else:
                 j += 1
-        if i != len(t):
-            res = len(t[i:])
-        return(res)
+        return len(t[i:])
